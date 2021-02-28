@@ -1,0 +1,46 @@
+<!doctype html>
+<html prefix="og: http://ogp.me/ns#">
+  <head>
+    <meta charset="utf-8">
+
+    <title>Sample Page</title>
+    <meta name="description" content="OGP等のサンプル">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <meta property="og:title" content="Sample Page">
+    <!-- one of {website, blog, article} -->
+    <meta property="og:type" content="website">
+    <meta property="og:description" content="OGPのサンプル">
+    <meta property="og:url" content="https://*******">
+    <meta property="og:site_name" content="Github Pages @natsuki__yu">
+    <meta property="og:image" content="https://*******">
+
+    <!-- one of {summary, summary_large_image, app, player} -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@natsuki__yu" />
+    <meta name="twitter:player" content="@natsuki__yu" />
+
+    <style>
+      body { background-color: aliceblue; }
+      div { margin: 15px; }
+    </style>
+  </head>
+  <body>
+    <h1>OGP/Twitter Cards サンプルページ</h1>
+    このページはOGPやTwitter Cardsのサンプルです．
+    これによりTwitter等にリンクが投稿されると詳細な情報が表示されるようになります．
+
+    <h2>Twitter Web Intent</h2>
+    TwitterにはWeb Intentという仕組みがあります．
+    以下の画像をクリックすると投稿画面が表示されます．
+    (自動で投稿はされません)
+    <div>
+      <a href="https://twitter.com/intent/tweet?text=サンプルページ&url=****" 
+         target="_blank" 
+         rel="noopener noreferrer">
+        <img src="circle.png" width="100px">
+      </a>
+    </div>
+  </body>
+</html>
